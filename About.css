@@ -1,0 +1,50 @@
+.about-us{
+  padding: 5rem 0;
+  display: flex;
+  gap: 3rem;
+}
+
+.about-us img{
+  width: 600px;
+}
+
+.about-tit h1 {
+  color: rgb(97, 5, 5);
+  font-size: 37px;
+  padding-top: 3rem;
+}
+
+.about-tit p {
+  color: rgb(99, 99, 99);
+  padding: 20px 0;
+  line-height: 1.6;
+}
+
+.about-tit button {
+  border: none;
+  background-color: brown;
+  color: #fff;
+  padding: 13px 25px;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-tit button:hover {
+  background-color: transparent;
+  border: 3px solid brown;
+  color: brown;
+}
+
+@media (max-width:600px) {
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us img{
+    width: 500px;
+  }
+  .about-tit h1{
+    font-size: 30px;
+  }
+}

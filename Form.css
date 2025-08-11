@@ -1,0 +1,52 @@
+.form {
+  text-align: center;
+  width: 600px;
+  margin: 5rem auto;
+}
+
+.form h3{
+  color: rgb(77, 9, 9);
+  font-size: 35px;
+}
+
+.form p {
+  color: rgb(63, 63, 63);
+  padding-top: 20px;
+}
+
+form {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.form input {
+  width: 100%;
+  height: 48px;
+  margin-top: 1.6rem;
+  border: 3px solid rgb(160, 158, 158);
+  padding-left: 20px;
+  outline: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media (max-width:600px) {
+  .form {
+    width: 300px;
+  }
+  .form h3{
+    font-size: 30px;
+  }
+  .form p{
+    line-height: 1.4;
+  }
+  form{
+    flex-direction: column;
+  }
+  form button{
+    width: 100%;
+  }
+}

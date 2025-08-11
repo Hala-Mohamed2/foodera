@@ -1,0 +1,69 @@
+.make {
+  padding: 3rem 0;
+  display: flex;
+  gap: 3rem;
+}
+
+.make h1{
+  color: rgb(83, 5, 5);
+  font-size: 38px;
+}
+
+.make p {
+  color: rgb(95, 95, 95);
+  padding: 20px 0;
+  line-height: 1.6;
+}
+
+.make .ppp{
+  display: flex;
+  flex-direction: column;
+}
+
+.ppp span {
+  color:  rgb(95, 95, 95);
+  padding-top: 30px;
+}
+
+button {
+  border: none;
+  padding: 15px 27px;
+  color: #fff;
+  background-color: brown;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+  border: 3px solid brown ;
+  color: brown;
+  background-color: transparent;
+}
+
+
+.ppp span svg {
+  color: brown;
+  font-size: 20px;
+}
+
+.make img{
+  width: 600px;
+}
+
+@media (max-width:600px) {
+  .make{
+    flex-direction: column;
+  }
+  .make h1{
+    font-size: 30px;
+  }
+  .make p{
+    font-size: 15px;
+  }
+  .make img{
+    width: 500px;
+  }
+}

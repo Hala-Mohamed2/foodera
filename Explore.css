@@ -1,0 +1,89 @@
+.explore{
+  padding: 3rem 0;
+}
+
+.tit {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.tit h1{
+  color: rgb(100, 9, 9);
+  font-size: 35px;
+}
+
+.tit p {
+  color: rgb(87, 86, 86);
+  padding: 2rem 0;
+  line-height: 1.6;
+}
+
+
+.explore-row{
+  display: flex;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.explore-row .col img{
+  width: 350px;
+  border-radius: 10px;
+}
+
+.explore-row .col h3{
+  color: rgb(77, 7, 7) ;
+  font-size: 17px;
+  padding: 14px 0;
+}
+
+.explore-row .col span {
+  color: rgb(77, 76, 76);
+}
+
+.explore-row .col h4{
+  color: brown;
+  font-size: 23px;
+  padding-top: 16px;
+}
+
+.explore-row .col h4 span{
+  color: rgb(155, 155, 155);
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+
+.explore-row .col hr{
+  margin-top: 2rem;
+  background-color: rgb(240, 239, 239);
+}
+
+.explore-row .col button {
+  background-color: brown;
+  border: none;
+  color: #fff;
+  padding: 15px 27px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-row .col button:hover {
+  background-color: transparent;
+  color: brown;
+  border: 3px solid brown;
+}
+
+@media (max-width:600px) {
+  .tit{
+    text-align: start;
+  }
+  .tit h1{
+    font-size: 30px;
+  }
+  .tit p {
+    font-size: 15px;
+  }
+  .explore-row{
+    flex-direction: column;
+  }
+}

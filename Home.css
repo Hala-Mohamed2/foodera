@@ -1,0 +1,72 @@
+.home-app{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 13rem;
+}
+
+.home-one h1{
+  color: brown;
+  font-size: 45px;
+}
+
+.home-one p {
+  color: gray;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.home-two img {
+  width: 600px;
+}
+
+.btns {
+  display: flex;
+  gap: 18px;
+  margin-top: 2rem;
+}
+
+.order , .learn {
+  border: none;
+  padding: 13px 25px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.order {
+  background-color: brown;
+  color: #fff;
+}
+
+.order:hover {
+  background-color: transparent;
+  border: 3px solid brown;
+  color: brown;
+}
+
+.learn:hover {
+  border: 3px solid brown;
+  color: brown;
+}
+
+
+@media (max-width:600px) {
+  .home-app{
+    flex-direction: column;
+    padding-top: 3rem;
+  }
+  .home-one h1{
+    font-size: 35px
+  }
+  .btns {
+    margin-top: 1rem;
+  }
+  .home-two img{
+    width:500px;
+  }
+}

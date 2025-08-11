@@ -1,0 +1,40 @@
+.footer{
+  background-color: brown;
+  height: 250px;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer .navy{
+  display: flex;
+  gap: 30px;
+}
+
+.footer .navy a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.footer .navy a:hover{
+  text-decoration: underline;
+}
+
+.footer .icons {
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+  padding: 30px 0;
+  cursor: pointer;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #fff;
+}
+

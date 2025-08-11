@@ -1,0 +1,29 @@
+.price-up {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+}
+
+.price-up h2{
+  color: #fff;
+  font-size: 35px;
+}
+
+.price-up  span{
+  color: #fff;
+  font-size: 12px;
+  padding-left: 12px;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+@media (max-width:600px) {
+  .price-up{
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-btm{
+    padding: 10px 0;
+  }
+}
